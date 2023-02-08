@@ -1,0 +1,19 @@
+{
+  "name": "edu-bdd",
+  "version": "1.0.0",
+  "description": "BDD Cucumber testing with latest Cypress version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rzi",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^12.5.1",
+    "esbuild": "^0.17.6"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.3"
+  }
+}
